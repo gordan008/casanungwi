@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "installedAt": "2026-11-07T14:25:59.465Z",
+  "files": {
+    "C:\\casanungwi\\.claude\\settings.json": {
+      "plugins": [
+        "ruflo-mods@ruflo",
+        "ruflo-swarm@ruflo",
+        "ruflo-console@ruflo"
+      ],
+      "marketplace": true,
+      "env": true,
+      "claudeInstalled": []
+    }
+  }
+}
