@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contatti e richiesta – Casa Nungwi</title>
+<meta name="description" content="Invia una richiesta per il tuo soggiorno a Casa Nungwi, a Nungwi, Zanzibar.">
+<meta name="theme-color" content="#0b6580">
+<link rel="canonical" href="https://casanungwi.com/it/contact/">
+<link rel="alternate" hreflang="en" href="https://casanungwi.com/contact/">
+<link rel="alternate" hreflang="de" href="https://casanungwi.com/de/contact/">
+<link rel="alternate" hreflang="it" href="https://casanungwi.com/it/contact/">
+<link rel="alternate" hreflang="fr" href="https://casanungwi.com/fr/contact/">
+<link rel="alternate" hreflang="ru" href="https://casanungwi.com/ru/contact/">
+<link rel="alternate" hreflang="x-default" href="https://casanungwi.com/contact/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Casa Nungwi">
+<meta property="og:title" content="Contatti e richiesta – Casa Nungwi">
+<meta property="og:description" content="Invia una richiesta per il tuo soggiorno a Casa Nungwi, a Nungwi, Zanzibar.">
+<meta property="og:url" content="https://casanungwi.com/it/contact/">
+<meta property="og:image" content="https://casanungwi.com/slike/og-image.jpg"><!-- TODO: add a 1200x630 photo as slike/og-image.jpg -->
+<meta property="og:locale" content="it_IT">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/slike/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/main.js" defer></script>
+</head>
+<body data-page="contact">
+<a class="skip" href="#main">Vai al contenuto</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/it/">Casa <span>Nungwi</span></a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/it/">Home</a>
+      <a href="/it/apartments/">Appartamenti</a>
+      <a href="/it/gallery/">Galleria</a>
+      <a href="/it/location/">Posizione</a>
+      <a href="/it/contact/" aria-current="page">Contatti</a>
+    </nav>
+    <details class="lang" id="lang">
+      <summary class="icon-btn" aria-label="Lingua">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+        <span>IT</span>
+      </summary>
+      <ul class="lang-menu">
+        <li><a href="/contact/" hreflang="en" lang="en" data-lang="en">English</a></li>
+        <li><a href="/de/contact/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li>
+        <li><a href="/it/contact/" hreflang="it" lang="it" data-lang="it" aria-current="true">Italiano</a></li>
+        <li><a href="/fr/contact/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li>
+        <li><a href="/ru/contact/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li>
+      </ul>
+    </details>
+    <button type="button" class="icon-btn menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="lang-note">Questa traduzione non è ancora stata controllata da un madrelingua e può contenere errori. La versione di riferimento è quella inglese.</div>
+</header>
+<main id="main">
+<section class="page-head"><div class="wrap">
+  <h1>Contatti</h1>
+  <p class="lead">Inviaci una richiesta e ti risponderemo. Prezzi da gennaio 2027 – contattaci.</p>
+</div></section>
+<section class="section"><div class="wrap">
+  <form id="inquiry" action="https://formspree.io/f/xoeezndl" method="POST"
+    data-msg-sending="Invio in corso…" data-msg-success="Grazie! La tua richiesta è stata inviata. Ti risponderemo presto." data-msg-error="Spiacenti, qualcosa è andato storto. Scrivici direttamente via email."
+    data-msg-todo="Il modulo non è ancora collegato. Scrivici direttamente via email." data-msg-dates="La partenza deve essere successiva all'arrivo.">
+    <input type="hidden" name="_subject" value="Casa Nungwi inquiry">
+    <div class="hp" aria-hidden="true"><label>Leave this field empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+    <div class="row">
+      <div><label for="name">Nome</label><input id="name" name="name" type="text" required autocomplete="name"></div>
+      <div><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+    </div>
+    <div class="row">
+      <div><label for="arrival">Arrivo</label><input id="arrival" name="arrival" type="date"></div>
+      <div><label for="departure">Partenza</label><input id="departure" name="departure" type="date"></div>
+    </div>
+    <div class="row">
+      <div><label for="guests">Numero di ospiti</label><input id="guests" name="guests" type="number" min="1" max="20" inputmode="numeric"></div>
+      <div><label for="apartment">Appartamento</label><select id="apartment" name="apartment"><option value="">Nessuna preferenza / non so</option><option value="apt1">Appartamento 1 [TODO: nome]</option><option value="apt2">Appartamento 2 [TODO: nome]</option><option value="apt3">Appartamento 3 [TODO: nome]</option></select></div>
+    </div>
+    <div><label for="message">Messaggio</label><textarea id="message" name="message"></textarea></div>
+    <div id="form-status" class="status" role="status" aria-live="polite"></div>
+    <div><button type="submit" class="btn">Invia richiesta</button></div>
+  </form>
+  <p class="email-line">Oppure scrivici direttamente: <a href="mailto:casanungwi@gmail.com">casanungwi@gmail.com</a></p>
+  <p class="email-line wa-line">Oppure scrivici su WhatsApp: <a href="https://wa.me/38641779425" target="_blank" rel="noopener">+386 41 779 425</a></p>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Casa Nungwi</strong> &middot; Appartamenti vacanza a Nungwi, Zanzibar</p>
+    <p><a href="mailto:casanungwi@gmail.com">casanungwi@gmail.com</a> &middot; <a href="/it/privacy/">Privacy</a></p>
+    <p>© Casa Nungwi. Tutti i diritti riservati.</p>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/38641779425" target="_blank" rel="noopener" aria-label="Scrivici su WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.7 8.3c.3-.6.7-.6 1-.3l.9 1.3c.2.3.1.6-.1.9l-.5.6c.8 1.5 1.9 2.4 3.4 3.1l.7-.7c.3-.3.6-.3.9-.1l1.3.9c.3.3.3.7-.2 1.2-.7.8-1.7 1-3 .5-2.6-1-4.6-3-5.4-5.5-.2-.8-.1-1.5.5-2.1z" fill="currentColor"/></svg>
+  <span>Scrivici su WhatsApp</span></a>
+</body>
+</html>

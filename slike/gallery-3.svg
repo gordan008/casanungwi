@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Placeholder">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe3ec"/><stop offset=".62" stop-color="#4aa3bb"/><stop offset=".62" stop-color="#f1e2c4"/><stop offset="1" stop-color="#e8d5b2"/></linearGradient></defs>
+<rect width="100%" height="100%" fill="url(#g)"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#08475a">
+<text x="50%" y="44%" font-size="55" font-weight="700">PLACEHOLDER PHOTO</text>
+<text x="50%" y="52%" font-size="38">Gallery 3 &#183; slike/gallery-3.svg</text>
+</g></svg>
