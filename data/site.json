@@ -1,7 +1,7 @@
 {
   "_help": "Edit photo paths here. Optional 'widths': [480,960,1600] makes the browser pick slike/name-480.jpg, name-960.jpg, ... (src is the largest file). Texts are in lang/*.json (keys apt.<id>.name, apt.<id>.desc, alt.<photo id>).",
   "whatsapp": { "number": "38641779425", "display": "+386 41 779 425" },
-  "hero": { "id": "hero", "src": "slike/hero.svg", "w": 1600, "h": 900 },
+  "hero": { "id": "hero", "src": "slike/hero.jpg", "w": 2400, "h": 1350, "widths": [1200, 2400] },
   "apartments": [
     { "id": "apt1", "featured": true, "photos": [ { "id": "apt1-1", "src": "slike/apt1-1.svg", "w": 1200, "h": 800 } ] },
     { "id": "apt2", "featured": true, "photos": [ { "id": "apt2-1", "src": "slike/apt2-1.svg", "w": 1200, "h": 800 } ] },
